@@ -1,84 +1,84 @@
 {
     "intents": [
         {
-            "tags" : "Greetings",
+            "tag" : "Greetings",
             "patterns" : ["hay", "hai", "hellow", "whats upp", "how are you doing", "hay buddy"],
-            "responces" : ["Hellow how may I help you 😊", "hay buddy how can I help you 😊"]
+            "responses" : ["Hellow how may I help you 😊", "hay buddy how can I help you 😊"]
         },
         {
-            "tags" : "Intro",
+            "tag" : "Intro",
             "patterns" : ["who are you", "who made you", "who is your creator", "what should i call you", "what is your name"],
-            "responces" : ["I am Alpha a chatbot made by Prince", "Oh glad you asked, I am Alpha a chatbot made by Prince"]
+            "responses" : ["I am Alpha a chatbot made by Prince", "Oh glad you asked, I am Alpha a chatbot made by Prince"]
         },
         {
-            "tags" : "Shop",
+            "tag" : "Shop",
             "patterns" : ["what are your products", "what do you recommend", "recommend me something", "what should i buy", "list your products", "what do you sell"],
-            "responces" : ["We sell AI products like: Business Chatbots like me, Virtual-Assistent for desktop and android, Recommendation system"]
+            "responses" : ["We sell AI products like: Business Chatbots like me, Virtual-Assistent for desktop and android, Recommendation system"]
         },
         {
-            "tags" : "Hours",
+            "tag" : "Hours",
             "patterns" : ["when are you gyes open", "what are your working hours", "hours of operation"],
-            "responces" : ["We are here for you 24/7 😊", "We are at your service 24/7 😊", "Ready to serve you 24/7 fell free whenever you like 😊"]
+            "responses" : ["We are here for you 24/7 😊", "We are at your service 24/7 😊", "Ready to serve you 24/7 fell free whenever you like 😊"]
         },
         {
-            "tags" : "BestSeller",
+            "tag" : "BestSeller",
             "patterns" : ["what do you sell most", "your most selling product", "what is your best seller"],
-            "responces" : ["Business Chatbots like me and Virtual-Assistents"]
+            "responses" : ["Business Chatbots like me and Virtual-Assistents"]
         },
         {
-            "tags" : "Signoff",
+            "tag" : "Signoff",
             "patterns" : ["goodbye", "bye", "may we meet again", "see you later", "i am leaving", "see yaa", "have a good day"],
-            "responces" : ["goodbye buddy we will meet again 👋", "It was a lovely time meeting you goodbye may we meet again 🥹", "Sad to see you go but we will meet again goodbye friend"]
+            "responses" : ["goodbye buddy we will meet again 👋", "It was a lovely time meeting you goodbye may we meet again 🥹", "Sad to see you go but we will meet again goodbye friend"]
         },
         {
-            "tags" : "Technology",
+            "tag" : "Technology",
             "patterns" : ["what technologies you use in your products", "what technology you use most", "in which technolohy you are based on"],
-            "responces" : ["We use Machine Learning and Deep Learning algorithms along with NLP, CV, LLMs, and may more"]
+            "responses" : ["We use Machine Learning and Deep Learning algorithms along with NLP, CV, LLMs, and may more"]
         },
         {
-            "tags" : "Contacts",
+            "tag" : "Contacts",
             "patterns" : ["how should i contact you", "how to reach you", "how can i get updates from you", "what are your contacts"],
-            "responces" : ["you can contact us on princejoshij736@gmail.com for any queries we are always ready to help"]
+            "responses" : ["you can contact us on princejoshij736@gmail.com for any queries we are always ready to help"]
         },
         {
-            "tags" : "socialMedia",
+            "tag" : "socialMedia",
             "patterns" : ["what are your social media handles", "what are your social media accounts", "what is your insta"],
-            "responces" : ["__princejoshi__ you can join us here"]
+            "responses" : ["__princejoshi__ you can join us here"]
         },
         {
-            "tags" : "",
+            "tag" : "",
             "patterns" : ["what are your social media handles", "what are your social media accounts", "what is your insta"],
-            "responces" : ["__princejoshi__ you can join us here"]
+            "responses" : ["__princejoshi__ you can join us here"]
         },
         {
-        "tags": "thanks",
-        "patterns": ["Thanks", "Thank you", "Appreciate it", "Grateful"],
-        "responses": ["You're welcome!", "Glad I could help!", "Anytime!", "Happy to assist!"]
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Appreciate it", "Grateful"],
+            "responses": ["You're welcome!", "Glad I could help!", "Anytime!", "Happy to assist!"]
         },
         {
-        "tag": "help",
-        "patterns": ["Help", "Assistance", "Support", "Guidance"],
-        "responses": ["Sure, what do you need help with?", "How can I assist you today?", "I'm here to help, just let me know what you need."]
+            "tag": "help",
+            "patterns": ["Help", "Assistance", "Support", "Guidance"],
+            "responses": ["Sure, what do you need help with?", "How can I assist you today?", "I'm here to help, just let me know what you need."]
         },
         {
-        "tag": "faq",
-        "patterns": ["FAQ", "Frequently Asked Questions", "Common Queries", "Helpful Information"],
-        "responses": ["Here are some frequently asked questions:", "Let me provide you with some helpful information:", "Sure, I can assist you with common queries:"]
+            "tag": "faq",
+            "patterns": ["FAQ", "Frequently Asked Questions", "Common Queries", "Helpful Information"],
+            "responses": ["Here are some frequently asked questions:", "Let me provide you with some helpful information:", "Sure, I can assist you with common queries:"]
         },
         {
-        "tag": "product_inquiry",
-        "patterns": ["Product inquiry", "Details about product", "Product information", "Product specs"],
-        "responses": ["Certainly! What product are you interested in?", "Sure, I can provide you with details about our products. Which one are you interested in?", "Of course! Let me know which product you'd like more information about."]
+            "tag": "product_inquiry",
+            "patterns": ["Product inquiry", "Details about product", "Product information", "Product specs"],
+            "responses": ["Certainly! What product are you interested in?", "Sure, I can provide you with details about our products. Which one are you interested in?", "Of course! Let me know which product you'd like more information about."]
         },
         {
-        "tag": "order_status",
-        "patterns": ["Order status", "Track order", "Where is my order", "Delivery status"],
-        "responses": ["To check your order status, please provide your order number.", "Sure, I can help you track your order. May I have your order number?", "Let me assist you with your order status. Could you please provide your order number?"]
+            "tag": "order_status",
+            "patterns": ["Order status", "Track order", "Where is my order", "Delivery status"],
+            "responses": ["To check your order status, please provide your order number.", "Sure, I can help you track your order. May I have your order number?", "Let me assist you with your order status. Could you please provide your order number?"]
         },
         {
-        "tag": "payment",
-        "patterns": ["Payment methods", "Payment options", "Accepted payment", "How to pay"],
-        "responses": ["We accept various payment methods such as credit/debit cards, PayPal, and bank transfers.", "You can pay using credit/debit cards, PayPal, or bank transfer.", "We offer multiple payment options including credit/debit cards, PayPal, and bank transfers."]
+            "tag": "payment",
+            "patterns": ["Payment methods", "Payment options", "Accepted payment", "How to pay"],
+            "responses": ["We accept various payment methods such as credit/debit cards, PayPal, and bank transfers.", "You can pay using credit/debit cards, PayPal, or bank transfer.", "We offer multiple payment options including credit/debit cards, PayPal, and bank transfers."]
         }
         
         
