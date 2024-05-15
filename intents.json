@@ -44,7 +44,43 @@
             "tags" : "socialMedia",
             "patterns" : ["what are your social media handles", "what are your social media accounts", "what is your insta"],
             "responces" : ["__princejoshi__ you can join us here"]
+        },
+        {
+            "tags" : "",
+            "patterns" : ["what are your social media handles", "what are your social media accounts", "what is your insta"],
+            "responces" : ["__princejoshi__ you can join us here"]
+        },
+        {
+        "tags": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it", "Grateful"],
+        "responses": ["You're welcome!", "Glad I could help!", "Anytime!", "Happy to assist!"]
+        },
+        {
+        "tag": "help",
+        "patterns": ["Help", "Assistance", "Support", "Guidance"],
+        "responses": ["Sure, what do you need help with?", "How can I assist you today?", "I'm here to help, just let me know what you need."]
+        },
+        {
+        "tag": "faq",
+        "patterns": ["FAQ", "Frequently Asked Questions", "Common Queries", "Helpful Information"],
+        "responses": ["Here are some frequently asked questions:", "Let me provide you with some helpful information:", "Sure, I can assist you with common queries:"]
+        },
+        {
+        "tag": "product_inquiry",
+        "patterns": ["Product inquiry", "Details about product", "Product information", "Product specs"],
+        "responses": ["Certainly! What product are you interested in?", "Sure, I can provide you with details about our products. Which one are you interested in?", "Of course! Let me know which product you'd like more information about."]
+        },
+        {
+        "tag": "order_status",
+        "patterns": ["Order status", "Track order", "Where is my order", "Delivery status"],
+        "responses": ["To check your order status, please provide your order number.", "Sure, I can help you track your order. May I have your order number?", "Let me assist you with your order status. Could you please provide your order number?"]
+        },
+        {
+        "tag": "payment",
+        "patterns": ["Payment methods", "Payment options", "Accepted payment", "How to pay"],
+        "responses": ["We accept various payment methods such as credit/debit cards, PayPal, and bank transfers.", "You can pay using credit/debit cards, PayPal, or bank transfer.", "We offer multiple payment options including credit/debit cards, PayPal, and bank transfers."]
         }
+        
         
 
     ]
