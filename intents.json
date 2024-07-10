@@ -52,7 +52,7 @@
         },
         {
             "tag": "thanks",
-            "patterns": ["Thanks", "Thank you", "Appreciate it", "Grateful"],
+            "patterns": ["Thanks", "Thank you", "Appreciate it", "Grateful", "Great!", "No problem.", "You're welcome.", "Well done!"],
             "responses": ["You're welcome!", "Glad I could help!", "Anytime!", "Happy to assist!"]
         },
         {
@@ -79,9 +79,11 @@
             "tag": "payment",
             "patterns": ["Payment methods", "Payment options", "Accepted payment", "How to pay"],
             "responses": ["We accept various payment methods such as credit/debit cards, PayPal, and bank transfers.", "You can pay using credit/debit cards, PayPal, or bank transfer.", "We offer multiple payment options including credit/debit cards, PayPal, and bank transfers."]
+        },
+        {
+            "tag" : "Buying",
+            "patterns" : ["Can i buy a chatbot like you", "are you on sale", "i want a chatbot like you for my website help me" ],
+            "responses" : ["Yes you can buy a chatbot like me included with custom changes and functionalites you can check our marketplace"]
         }
-        
-        
-
     ]
 }
