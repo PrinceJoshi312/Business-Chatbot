@@ -1,68 +1,67 @@
-🤖 Rule-Based Chatbot Framework
-📝 Overview
-This repository provides a simple and reusable rule-based chatbot built using Python. It is designed to be easily extended and adapted to different domains by simply updating the intents and responses. Whether you're creating a customer support bot, FAQ assistant, or a basic conversational interface, this codebase serves as a solid foundation.
+# 🤖 Rule-Based Chatbot Framework
 
-📂 Project Structure
-bash
-Copy
-Edit
+## 📝 Overview
+
+This repository provides a **simple and reusable rule-based chatbot** built using Python. It is designed to be easily extended and adapted to different domains by simply updating the intents and responses. Whether you're creating a customer support bot, FAQ assistant, or a basic conversational interface, this codebase serves as a solid foundation.
+
+## 📂 Project Structure
+
+```
 .
 ├── intents.json              # Contains the intents, patterns, and responses
 ├── main.py                  # Main script to run the chatbot
 ├── training.py              # Handles preprocessing and model training
 ├── tempCodeRunnerFile.py    # Temporary file (can be ignored)
-⚙️ How It Works
-Uses a bag-of-words model with a feedforward neural network to classify user input into predefined intents.
+```
 
-Intent classification is based on training data stored in intents.json.
+## ⚙️ How It Works
 
-Returns predefined responses based on predicted intent.
+* Uses a **bag-of-words model** with a **feedforward neural network** to classify user input into predefined intents.
+* Intent classification is based on training data stored in `intents.json`.
+* Returns predefined responses based on predicted intent.
 
-💡 Features
-Fully customizable via intents.json
+## 💡 Features
 
-Lightweight and fast — no external APIs required
+* Fully customizable via `intents.json`
+* Lightweight and fast — no external APIs required
+* Easily reusable across different domains (e.g., healthcare, retail, education)
+* Beginner-friendly and well-structured code
 
-Easily reusable across different domains (e.g., healthcare, retail, education)
+## 🚀 Getting Started
 
-Beginner-friendly and well-structured code
+1. **Clone the repository:**
 
-🚀 Getting Started
-Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/rule-based-chatbot.git
+   cd rule-based-chatbot
+   ```
 
-bash
-Copy
-Edit
-git clone https://github.com/<your-username>/rule-based-chatbot.git
-cd rule-based-chatbot
-Install required packages:
+2. **Install required packages:**
 
-bash
-Copy
-Edit
-pip install numpy nltk tensorflow
-Train the model:
+   ```bash
+   pip install numpy nltk tensorflow
+   ```
 
-bash
-Copy
-Edit
-python training.py
-Run the chatbot:
+3. **Train the model:**
 
-bash
-Copy
-Edit
-python main.py
-🧠 Customization
+   ```bash
+   python training.py
+   ```
+
+4. **Run the chatbot:**
+
+   ```bash
+   python main.py
+   ```
+
+## 🧠 Customization
+
 To adapt the bot for a different domain:
 
-Open intents.json
+* Open `intents.json`
+* Add or modify intents like so:
 
-Add or modify intents like so:
-
-json
-Copy
-Edit
+```json
 {
   "intents": [
     {
@@ -73,26 +72,25 @@ Edit
     ...
   ]
 }
-Then retrain the model using training.py.
+```
 
-🔁 Example Use Cases
-FAQ bots for websites
+Then retrain the model using `training.py`.
 
-Automated response systems
+## 🔁 Example Use Cases
 
-Educational bots for basic interaction
+* FAQ bots for websites
+* Automated response systems
+* Educational bots for basic interaction
+* Domain-specific assistants (e.g., e-commerce, banking, healthcare)
 
-Domain-specific assistants (e.g., e-commerce, banking, healthcare)
+## 🛠 Future Improvements (Optional)
 
-🛠 Future Improvements (Optional)
-Add voice input/output
+* Add voice input/output
+* GUI using Tkinter or Streamlit
+* Integrate with APIs or databases
+* More advanced NLP using transformers
 
-GUI using Tkinter or Streamlit
+## 📄 License
 
-Integrate with APIs or databases
-
-More advanced NLP using transformers
-
-📄 License
 This project is open-source and intended for educational or prototyping purposes. Feel free to reuse and adapt with attribution.
 
