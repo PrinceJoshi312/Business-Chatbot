@@ -43,7 +43,7 @@
         {
             "tags" : "socialMedia",
             "patterns" : ["what are your social media handles", "what are your social media accounts", "what is your insta"],
-            "responces" : ["__princejoshi__ you can join us here"]
+            "responces" : ["__princejoshi__ you can join here"]
         }
         
 
